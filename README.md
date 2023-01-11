@@ -13,10 +13,14 @@
 
 ## 使い方
 
-適応させたいアーマースタンドにpas.ASタグを付けます。
-
-
+・適応させるには、適応させたいアーマースタンドにpas.ASタグを付けます。
 ```mcfunction
 # 例: 一番近くにいるアーマースタンド1体にpas.ASタグを付ける
-tag @e[type=armor_stand, limit=1, sort=nearest] pas.AS
+tag @e[type=armor_stand, limit=1, sort=nearest] add pas.AS
+```
+
+・元に戻したい場合は、アーマースタンドのpas.ASタグを外します。
+```mcfunction
+# 例: 一番近くにいるアーマースタンド1体からpas.ASタグを外す
+tag @e[type=armor_stand, limit=1, sort=nearest] remove pas.AS
 ```
