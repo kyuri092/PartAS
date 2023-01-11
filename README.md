@@ -14,5 +14,6 @@
 
 適応させたいアーマースタンドにpas.ASタグを付けます。
 ```mcfunction
-例: /tag @e[type=armor_stand, limit=1, sort=nearest] pas.AS
+# 例: 一番近くにいるアーマースタンド1体にpas.ASタグを付ける
+/tag @e[type=armor_stand, limit=1, sort=nearest] pas.AS
 ```
