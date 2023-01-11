@@ -31,7 +31,7 @@ tag @e[type=armor_stand, limit=1, sort=nearest] remove pas.AS
 ```
 
 
-- ポーズをさせるには、pas.ASタグを付けたアーマースタンドのPoseを設定します。
+- ポーズをさせるには、**pas.AS**タグを付けたアーマースタンドのPoseを設定します。
 ```mcfunction
 data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set from storage pas lie
 ```
