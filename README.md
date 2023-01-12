@@ -13,42 +13,46 @@
 
 ## 使い方
 
-- 適応させるには、アーマースタンドに**pas.AS**タグを付けます。
+- **適応させるには、アーマースタンドにpas.ASタグを付けます。**
 ```mcfunction
 tag @e[type=armor_stand, limit=1, sort=nearest] add pas.AS
 ```
 
-- **pas.AS**タグの付いたアーマースタンドを召喚することもできます。
+- **pas.ASタグの付いたアーマースタンドを召喚することもできます。**
 ```mcfunction
 function pas:option/summon/part_as
 ```
 
-- 元に戻したい場合は、アーマースタンドの**pas.AS**タグを外します。
+- **元に戻したい場合は、アーマースタンドのpas.ASタグを外します。**
 ```mcfunction
 tag @e[type=armor_stand, limit=1, sort=nearest] remove pas.AS
 ```
 
-- ポーズをさせるには、**pas.AS**タグを付けたアーマースタンドのPoseを設定します。
+- **ポーズをさせるには、pas.ASタグを付けたアーマースタンドのPoseを設定します。**
 
 ```mcfunction
 data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set value {Body: [90f, 0f, 0f]}
 ```
 
-- また、14種類のポーズをpasストレージの中に用意していますので、自由にご利用ください。
+- **また、14種類のポーズをpasストレージ内に用意していますので、自由にご利用ください。**
    - stand, swim, lie, greeting, sprawled, acrobatic, orz, zombie, bridge, handstand, upside_down, blown_off_1, blown_off_2, blown_off_3, blown_off_4
 
 ```mcfunction
 data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set from storage pas lie
 ```
 
+## ダウンロード
+右の[Releases](https://github.com/kyuri092/PartAS-v1.0.0/releases)からPartAS(datapack)とPartAS-RP(resourcepack)をダウンロードできます。
+
 ## 依存ライブラリ
-このデータパックを使用するには以下のライブラリも同時に入れる必要があります。
+本データパックは以下のライブラリも同時に入れる必要があります。
+
 赤石愛様:
-- AiMath(https://github.com/Ai-Akaishi/AiMath)
+- [AiMath](https://github.com/Ai-Akaishi/AiMath) - MIT License
 
 ## ラ
 M
 
 ## 最後に
-このデータパックは、アーマースタンド1体に対して8体のエンティティを使用しているなどにより、召喚し過ぎるとすぐに重くなってしまうので注意してください。目安は15体まで、常にポーズを書き換える場合は11体です。軽量化について教えてもらいたいものです。
+このデータパックは、アーマースタンド1体に対して8体のエンティティを使用しているなどによって、召喚し過ぎるとすぐに重くなってしまうので注意してください。目安は15体まで、常にポーズを書き換える場合は11体までです。軽量化教えてください。
 
