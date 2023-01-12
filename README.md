@@ -7,8 +7,8 @@
 1.19.2
 
 ## 何ができるのか
-
 アーマースタンドのNBTのPose.Bodyを動かした際に、手足がついていくようになり、横に倒したようなポーズなどをさせられるようになります。
+![PartAS 14 Pose](https://user-images.githubusercontent.com/69749831/212108134-ef010ef6-5333-4e29-8951-5cb56ec33f5a.png)
 
 ## 使い方
 
