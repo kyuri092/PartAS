@@ -41,7 +41,7 @@ data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set from storage p
 ```
 
 ## ダウンロード
-右の[Releases](https://github.com/kyuri092/PartAS-v1.0.0/releases)から**PartAS**(データパック)と**PartAS-RP**(リソースパック)をダウンロードできます。
+右の[Releases](https://github.com/kyuri092/PartAS/releases)から**PartAS**(データパック)と**PartAS-RP**(リソースパック)をダウンロードできます。
 
 ## 依存ライブラリ
 本データパックは以下のライブラリも同時に入れる必要があります。
