@@ -42,7 +42,7 @@ data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set from storage p
 ```
 
 ## ダウンロード
-右の[Releases](https://github.com/kyuri092/PartAS-v1.0.0/releases)からPartAS(datapack)とPartAS-RP(resourcepack)をダウンロードできます。
+右の[Releases](https://github.com/kyuri092/PartAS-v1.0.0/releases)からPartAS(データパック)とPartAS-RP(リソースパック)をダウンロードできます。
 
 ## 依存ライブラリ
 本データパックは以下のライブラリも同時に入れる必要があります。
@@ -50,8 +50,8 @@ data modify entity @e[tag=pas.AS, limit=1, sort=nearest] Pose set from storage p
 赤石愛様:
 - [AiMath](https://github.com/Ai-Akaishi/AiMath) - MIT License
 
-## ラ
-M
+## ライセンス
+[MIT License](LICENSE)
 
 ## 最後に
 このデータパックは、アーマースタンド1体に対して8体のエンティティを使用しているなどによって、召喚し過ぎるとすぐに重くなってしまうので注意してください。目安は15体まで、常にポーズを書き換える場合は11体までです。軽量化教えてください。
