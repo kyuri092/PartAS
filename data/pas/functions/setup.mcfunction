@@ -57,6 +57,7 @@ scoreboard players set #10 pas.number 10
 scoreboard players set #100 pas.number 100
 
 #storage
+data modify storage math: in set value 1
 data modify storage pas stand set value {}
 data modify storage pas swim set value {Body:[78f,0f,0f],Head:[50f,0f,16f],LeftLeg:[94f,20f,0f],RightLeg:[92f,356f,0f],LeftArm:[90f,78f,0f],RightArm:[80f,299f,0f]}
 data modify storage pas lie set value {Body:[0f,0f,70f],Head:[0f,0f,44f],LeftLeg:[320f,0f,90f],RightLeg:[350f,0f,66f],LeftArm:[0f,0f,211f],RightArm:[350f,0f,64f]}
