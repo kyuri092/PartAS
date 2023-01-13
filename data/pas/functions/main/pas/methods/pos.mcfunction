@@ -11,6 +11,8 @@ execute unless score $isSmall pas.number matches 1 run scoreboard players set $s
 
 #parts pos
 function pas:main/methods/get_pos
+execute unless score $mathInit pas.number matches 1 run function #math:sin
+execute unless score $mathInit pas.number matches 1 run scoreboard players set $mathInit pas.number 1
 execute store result storage math: in int 1 run data get entity @s Rotation[0]
 function #math:sin
 execute store result score $sin pas.number run data get storage math: out 100
